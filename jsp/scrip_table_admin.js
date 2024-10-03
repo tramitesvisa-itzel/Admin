@@ -42,7 +42,7 @@ async function loadFormData() {
 
             row.insertCell(8).textContent = data.motivo_viaje || '';
             row.insertCell(9).textContent = data.duración_de_su_viaje || '';
-            row.insertCell(10).textContent = data.su_viaje_cantidad_dias_meses || '';
+            row.insertCell(10).textContent = data.duración_de_su_viaje_cantidad_dias_meses || '';
             row.insertCell(11).textContent = data.fecha_motivo_viaje || '';
             row.insertCell(12).textContent = data.dirección_hospedara || '';
             row.insertCell(13).textContent = data.viaja_acompañado || '';
